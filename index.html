@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Austen's Cool Website</title>
+    <meta name="author" content="Austen Liao">
+</head>
+
+<body>
+    <link rel="stylesheet" href="styles.css">
+    <h1 id="austen-space">Austen's Space</h1>
+
+    <h2>About Me</h2>
+    <p>Hi! I'm Austen, currently a third-year Computer Science major at UC Berkeley from the Bay Area. A lot of people know me for my love for Kirby. Some of my other favorite things are Smash, video editing, having long talks with my friends, and waking up early. This semester I'm learning how to build websites, and this is the product of that. If you see me on campus you should say hi.</p>
+
+
+
+
+
+    <h2>Austen's Work</h2>
+    <h4>Personal:</h4>
+    <ul>
+        <li><a href="https://www.youtube.com/watch?v=5bpsO0wg-JM">18th Birthday Video</a></li>
+        <li><a href="https://www.youtube.com/watch?v=TPPYPtuwPIw">TAB Recap Video</a></li>
+        <li><a href="https://www.youtube.com/watch?v=mf4Op-f8zC8">Kirby Sleepover Video</a></li>
+    </ul>
+
+    <h4>Circle K:</h4>
+    <ul>
+        <li><a href="https://www.youtube.com/watch?v=0Lo6yJ2hIGw">UCBCKI Recap Video (Fall 2021)</a></li>
+        <li><a href="https://youtu.be/s8wmNW_02Ik">UCBCKI Recap Video (Spring 2022)</a></li>
+        <li><a href="https://youtu.be/RtiM8xF7smw">UCBCKI Recap Video (Fall 2022)</a></li>
+    </ul>
+
+    <h2>Cool People at Berkeley</h2>
+    <div class="pboxes">
+        <div class="peoplebox">
+            <h3>Amisha</h3>
+            <img class="cool_image" src="amisha.jpeg" alt="amisha">
+        </div>
+        <div class="peoplebox">
+            <h3>Victor</h3>
+            <img class="cool_image" src="victor2.jpg" alt="victor">
+        </div>
+        <div class="peoplebox">
+            <h3>Jackie</h3>
+            <img style="max-height: 500px; width: auto;" class="cool_image" src="jackie2.jpeg" alt="jackie">
+        </div>
+    </div>
+    <div class="pboxes">
+        <div class="peoplebox">
+            <h3>James</h3>
+            <img class="cool_image" src="james2.jpeg" alt="james">
+        </div>
+        <div class="peoplebox">
+            <h3>Lyna</h3>
+            <img class="cool_image" src="lyna2.jpeg" alt="lyna">
+        </div>
+        <div class="peoplebox">
+            <h3>Lam</h3>
+            <img class="cool_image" src="lam_hil.jpeg" alt="lam">
+        </div>
+    </div>
+
+    <h2>Nice Buttons</h2>
+    <div class="nice-buttons">
+        <button onclick="alert('you clicked the top button')">Top</button>
+        <button onclick="alert('you clicked the middle button')">Midle</button>
+        <button onclick="alert('you clicked the bottom button')">Bottom</button>
+    </div>
+
+    <h2>Contact me!</h2>
+    <ul>
+        <li><a href="https://www.instagram.com/awe.sten/" target="_blank"> Instagram! </a></li>
+        <li><a href="https://www.youtube.com/@austen933" target="_blank">YouTube! (that I barely ever use)</a></li>
+        <li><a href="https://www.linkedin.com/in/austen-liao/" target="_blank">LinkedIn!</a></li>
+    </ul>
+
+    <h4>Website Feedback Form</h4>
+    <h5>Provide feedback on how to improve my website!</h5>
+    <form>
+        <label>Name:</label>
+        <input type="textarea" id="name">
+        <br>
+        <label>Email:</label>
+        <input type="text" id="email">
+        <br>
+        <label>Feedback:</label>
+        <input type="text" id="feedback">
+        <input type="submit">
+    </form>
+    <h6>(please be gentle)</h6>
+    <br>
+    <br>
+    <div id="timer">
+        <h6>You are viewing this website on:</h6>
+        <h6 id="jsTarget"></h6>
+        <script>
+            const date = new Date()
+            document.getElementById("jsTarget").innerHTML = date
+        </script>
+    </div>
+</body>
+
+</html>

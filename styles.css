@@ -1,0 +1,40 @@
+* {
+    opacity: 99%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    margin: 40px;
+}
+
+#austen-space {
+    text-align: center;
+    font: Helvetica;
+}
+
+a:hover {
+    color: pink;
+}
+
+.pboxes {
+    display: flex;
+    margin: 10%
+}
+
+.nice-buttons {
+    display: grid;
+    align-content: space-around;
+    margin: 10%;
+}
+
+.peoplebox {
+    text-align: center;
+}
+
+.cool_image {
+    width: 70%
+}
+
+#timer {
+    text-align: right;
+}
